@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: teal;
+	font-family: "Futura";
+	color: white;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0 0 100px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+/*-------Main Content-------*/
+
+.content-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-right {
+	width: 50%;
+	height: 50%;
+	margin-right: 20px;
+	margin-top: 60px;
+}
+
+.container-left {
+	width: 50%;
+	height: 50%;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+
+.profile-pic {
+	width:300px;
+	height: 300px;
+	background-image: url("assets/images/munnar.jpg");
+	background-size: cover;
+	background-repeat: 100% 100% center;
+	border-radius: 20px;
+	border: 3px solid white;
+	display: block;
+	margin: 0 auto;
+}
+
+.heading {
+	text-align: center;	
+}
+
+.subheading {
+	text-align: center;
+}
+
+.intro {
+	font-size: 1.3em;
+	padding: 15px;
+}
+
+/*----------footer styling----------*/
+
+.footer-links {
+	color:purple;
+}
+
+.footer-links:link {
+	background-color: rgba(169,169,169,0.7);
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+.footer-links:hover {
+	color:darkred;
+}
+
+@media all and (max-width: 480px) {
+	.intro {
+		font-size: 1.1em;
+		text-align: center;
+	}
+
+	.content-container {
+		display: block;
+	}
+
+	.container-left {
+		width:100%;
+	}
+
+	.container-right {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 680px) {
+	
+	.intro {
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	.content-container {
+		display: block;
+	}
+
+	.container-left {
+		width:100%;
+	}
+
+	.container-right {
+		width: 100%;
+	}
+
+}
+
+
