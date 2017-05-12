@@ -161,27 +161,53 @@ footer {
 /*-------outdoors pics-------*/
 
 .image1 {
-	background-image: url("assets/images/backpack.jpg");
+	background-image: url("assets/images/outdoor-pics/backpack.jpg");
 }
 
 .image2 {
-	background-image: url("assets/images/snowy_path.jpg");
+	background-image: url("assets/images/outdoor-pics/snowy_path.jpg");
 }
 
 .image3 {
-	background-image: url("assets/images/sunset.jpg");
+	background-image: url("assets/images/outdoor-pics/sunset.jpg");
 }
 
 .image4 {
-	background-image: url("assets/images/boots.jpg");
+	background-image: url("assets/images/outdoor-pics/boots.jpg");
 }
 
 .image5{
-	background-image: url("assets/images/pinelands_acura.jpg");	
+	background-image: url("assets/images/outdoor-pics/pinelands_acura.jpg");	
 }
 
 .image6 {
-	background-image: url("assets/images/shark_river.jpg");
+	background-image: url("assets/images/outdoor-pics/shark_river.jpg");
+}
+
+/*-------travel pics-------*/
+
+.travel-image1 {
+	background-image: url("assets/images/travel-pics/udaipur.jpg");
+}
+
+.travel-image2 {
+	background-image: url("assets/images/travel-pics/auto2.jpg");
+}
+
+.travel-image3 {
+	background-image: url("assets/images/travel-pics/udaipur2.jpg");
+}
+
+.travel-image4 {
+	background-image: url("assets/images/travel-pics/munnar.jpg");
+}
+
+.travel-image5{
+	background-image: url("assets/images/travel-pics/waterfall.jpg");	
+}
+
+.travel-image6 {
+	background-image: url("assets/images/travel-pics/malayalam.jpg");
 }
 
 .gallery {
@@ -227,6 +253,16 @@ footer {
 	.image4,
 	.image5,
 	.image6 {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.travel-image1,
+	.travel-image2,
+	.travel-image3,
+	.travel-image4,
+	.travel-image5,
+	.travel-image6 {
 		margin: 0 auto;
 		margin-top: 20px;
 	}
