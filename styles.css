@@ -51,7 +51,7 @@ footer {
 	height: 300px;
 	background-image: url("assets/images/munnar.jpg");
 	background-size: cover;
-	background-repeat: 100% 100% center;
+	background-repeat: no-repeat;
 	border-radius: 20px;
 	border: 3px solid white;
 	display: block;
@@ -69,6 +69,43 @@ footer {
 .intro {
 	font-size: 1.3em;
 	padding: 15px;
+}
+
+.adventure {
+	width: 800px;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/*-------NavBar Styling-------*/
+
+.topnav {
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 /*----------footer styling----------*/
@@ -112,6 +149,79 @@ footer {
 	}
 }
 
+/*-------image styling-------*/
+
+.top-container,
+.bottom-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+/*-------outdoors pics-------*/
+
+.image1 {
+	background-image: url("assets/images/outdoor-pics/backpack.jpg");
+}
+
+.image2 {
+	background-image: url("assets/images/outdoor-pics/snowy_path.jpg");
+}
+
+.image3 {
+	background-image: url("assets/images/outdoor-pics/sunset.jpg");
+}
+
+.image4 {
+	background-image: url("assets/images/outdoor-pics/boots.jpg");
+}
+
+.image5{
+	background-image: url("assets/images/outdoor-pics/pinelands_acura.jpg");	
+}
+
+.image6 {
+	background-image: url("assets/images/outdoor-pics/shark_river.jpg");
+}
+
+/*-------travel pics-------*/
+
+.travel-image1 {
+	background-image: url("assets/images/travel-pics/udaipur.jpg");
+}
+
+.travel-image2 {
+	background-image: url("assets/images/travel-pics/auto2.jpg");
+}
+
+.travel-image3 {
+	background-image: url("assets/images/travel-pics/udaipur2.jpg");
+}
+
+.travel-image4 {
+	background-image: url("assets/images/travel-pics/munnar.jpg");
+}
+
+.travel-image5{
+	background-image: url("assets/images/travel-pics/waterfall.jpg");	
+}
+
+.travel-image6 {
+	background-image: url("assets/images/travel-pics/malayalam.jpg");
+}
+
+.gallery {
+	width:300px;
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	border: 3px solid white;
+	display: block;
+	margin: 0 auto;
+	margin: 5px;
+}
+
 @media all and (min-width: 481px) and (max-width: 680px) {
 	
 	.intro {
@@ -129,6 +239,32 @@ footer {
 
 	.container-right {
 		width: 100%;
+	}
+
+	.top-container,
+	.bottom-container {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.image1,
+	.image2,
+	.image3,
+	.image4,
+	.image5,
+	.image6 {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.travel-image1,
+	.travel-image2,
+	.travel-image3,
+	.travel-image4,
+	.travel-image5,
+	.travel-image6 {
+		margin: 0 auto;
+		margin-top: 20px;
 	}
 
 }
